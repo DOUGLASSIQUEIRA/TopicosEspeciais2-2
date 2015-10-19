@@ -1,10 +1,10 @@
-package com.edvaldotsi.flappybird.android;
+package br.grupointegrado.ads.flappyBird.android;
 
 import android.os.Bundle;
 
 import com.badlogic.gdx.backends.android.AndroidApplication;
 import com.badlogic.gdx.backends.android.AndroidApplicationConfiguration;
-import com.edvaldotsi.flappybird.MainGame;
+import br.grupointegrado.ads.flappyBird.MainGame;
 
 public class AndroidLauncher extends AndroidApplication {
 	@Override
