@@ -1,16 +1,16 @@
-package siqueira.com.android;
+package com.edvaldotsi.flappybird.android;
 
 import android.os.Bundle;
 
 import com.badlogic.gdx.backends.android.AndroidApplication;
 import com.badlogic.gdx.backends.android.AndroidApplicationConfiguration;
-import siqueira.com.MyGame;
+import com.edvaldotsi.flappybird.MainGame;
 
 public class AndroidLauncher extends AndroidApplication {
 	@Override
 	protected void onCreate (Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		AndroidApplicationConfiguration config = new AndroidApplicationConfiguration();
-		initialize(new MyGame(), config);
+		initialize(new MainGame(), config);
 	}
 }
